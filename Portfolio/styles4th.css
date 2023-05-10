@@ -1,0 +1,393 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background: #222;
+	line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+img
+{
+   max-width: 100%; 
+   height: 320px;
+}
+*{
+  box-sizing: border-box;  
+}
+
+.full-width
+{
+    width: 100%;
+}
+.container
+{
+  width: 1140px;  
+  padding: 0 15px;
+  margin:0 auto;
+}
+.header
+{
+    height: 100px;
+    padding: 30px 0;
+}
+
+.headerimg{
+    height: 800px;
+    background-image: url(Myphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay
+{
+    height: 800px;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+.menuheader ul
+{
+    display: flex;
+    justify-content: center;
+}
+.menuheader li
+{
+float: left;
+margin: 10px 20px;
+}
+.menuheader li a 
+{
+   color: #0b7d94;
+   text-transform: uppercase;
+}
+.slidertext
+{
+    padding: 150px 0;
+}
+.slidertext p, .slidertext h1
+{
+    color: white;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.slidertext h1
+{
+  font-size: 80px;  
+}
+.slidehead
+{
+    font-size: 50px;
+}
+.Portfolio
+{
+    height: 1200px;
+    
+    padding: 50px 0;
+}
+.heading
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0 0 80px 0;
+}
+.heading span
+{
+ font-weight: 200;   
+}
+.pbox
+{
+    width: 350px;
+    margin: 20px 0;
+}
+.pbox h4
+{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+.pbox h4, .pbox p
+{
+    color: white;
+    text-align: center;
+}
+.pbox-parent
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.rbox
+{
+    width: 48%;
+    float: left;
+    margin: 0 10px ;
+}
+.rbox-content
+{
+   width: 100%; 
+   background-color: #333;
+   padding: 30px;
+   border-radius: 10px;
+   margin: 0 0 30px 0; 
+}
+.date
+{
+    color: #fff !important;
+    margin: 0 0 10px 0;
+}
+.rbox-content p 
+{
+    color: #ddd;
+    margin: 0 0 10px 0;
+    line-height: 30px;
+}
+.rbox-content h5 
+{
+    color: #bac964;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.rbox h3
+{
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-weight: 200;
+}
+.resume
+{
+    height: 1200px;
+    padding: 50px 0;
+}
+.about
+{
+    padding: 100px 0;
+    height: 900px;
+}
+.about-img
+{
+    width: 60%;
+    float: left;
+    padding: 60px 100px 0 0;
+}
+.about-content
+{
+    width: 40%;
+    float: left;
+    padding: 40px 0;
+}
+.about-content p
+{
+    color: #eee;
+line-height: 30px;
+margin: 0 0 30px;
+}
+.btn-hire
+{
+    background-color: #bac964;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+}
+.btn-cv
+{
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.myservice
+{
+    height: 950px;
+    padding: 50px 0;
+}
+.sbox
+{
+    width: 30%;
+    padding: 30px;
+    background-color: #333;
+}
+.icon
+{
+    width: 90px;
+    height: 90px;
+    background-color: #bac964;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
+}
+.icon i
+{
+ font-size: 50px;   
+}
+.sbox-content
+{
+    width: 100%;
+}
+.sbox-content h3, .sbox-content p
+{
+   text-align: center; 
+}
+.sbox-content h3
+{
+    color: #fff;
+    font-weight: 200;
+    margin: 0 0 30px 0;
+}
+.sbox-content p 
+{
+  color: #eee;  
+  line-height: 30px;
+  
+}
+.sbox-content a
+{
+color: #bac964;
+margin: 30px 0 0 0;
+display: block;
+}
+.sbox-parent
+{
+display: flex;
+justify-content: space-between;  
+}
+.contact
+{
+    height: 900px;
+    padding: 50px 0;
+}
+.form
+{
+    width: 60%;
+    float: left;
+}
+.address
+{
+    width: 40%;
+    float: left;
+    padding: 0 50px;
+}
+.form h3, .address h3
+{
+color: #fff;
+font-size: 20px;
+font-weight: 200;
+margin: 0 0 30px 0;
+
+}
+.form-inpt
+{
+    background: #333;
+padding: 10px;
+height: 45px;
+border: none;
+width: 100%;
+margin: 0 0 20px 0;
+}
+.forml-inpt
+{
+    background: #333;
+padding: 10px;
+height: 145px;
+border: none;
+width: 100%;
+margin: 0 0 20px 0;
+}
+.btn-submit
+{
+    background: #bac964;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.adhead
+{
+   color: #2c3e50;
+   margin: 0 0 10px 0; 
+}
+.adcontent
+{
+    color: #eee;
+
+}
+.address li
+{
+    margin: 0 0 30px 0;
+}
+.foot
+{
+   height: 200px; 
+   padding: 50px 0; 
+}
+.foot p
+{
+    color: #eee;
+    text-align: center;
+}
+
+.foot-social 
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+.foot-social li
+{
+    float: left;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-social li a{
+    color: #bac964;
+    font-size: 18px;
+}
