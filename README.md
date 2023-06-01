@@ -10,4 +10,4 @@
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-brightgreen?style=flat-square&logo=geeksforgeeks)](https://auth.geeksforgeeks.org/user/murtihashfl/)
 [![Instagram](https://img.shields.io/badge/Instagram-Profile-pink?style=flat-square&logo=instagram)](https://instagram.com/murtiharsh?igshid=ZDdkNTZiNTM=)
 
-#please follow these plateform.
+please follow.
